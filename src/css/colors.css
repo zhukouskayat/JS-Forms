@@ -1,0 +1,24 @@
+body {
+    background-color: #e9f1ff;
+}
+
+#container {
+    background-color: white;
+    box-shadow: 0 0 30px #41467a;
+}
+
+.form,
+.formSel,
+.formText {
+    border-bottom-color: #41467a;
+}
+
+.sub,
+.res {
+    color: white;
+    background-color: #b2acf3;
+}
+
+a {
+    color: white;
+}

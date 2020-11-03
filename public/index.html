@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../src/css/reset.css">
+  <link rel="stylesheet" href="../src/css/geometry.css">
+  <link rel="stylesheet" href="../src/css/fonts.css">
+  <link rel="stylesheet" href="../src/css/colors.css">
+  <title>Form</title>
+</head>
+
+<body>
+
+  <div id="container">
+
+    <div>
+      <h1>Checkout</h1>
+    </div>
+  
+    <div>
+      <form method="POST">
+  
+        <h2>Shipping To</h2>
+  
+        <div class="formBig">
+          <label>
+            First name:
+            <br>
+            <input type="text" class="form">
+          </label>
+          <label>
+            Last name:
+            <br>
+            <input type="text" class="form">
+          </label>
+        </div>
+  
+        <div>
+          <label>
+            City:
+            <br>
+            <input type="text" class="form">
+          </label>
+        </div>
+  
+        <div>
+          <label>
+            Address:
+            <br>
+            <input type="text" class="form">
+          </label>
+        </div>
+  
+        <div>
+          <label>
+            State:
+            <br>
+            <select class="formSel">
+              <option selected value=""></option>
+              <option value="Alabama">Alabama</option>
+              <option value="Arizona">Arizona</option>
+              <option value="Colorado">Colorado</option>
+              <option value="Georgia">Georgia</option>
+              <option value="Indiana">Indiana</option>
+              <option value="Kansas">Kansas</option>
+              <option value="Louisiana">Louisiana</option>
+              <option value="Michigan">Michigan</option>
+              <option value="Minnesota">Minnesota</option>
+              <option value="Nebraska">Nebraska</option>
+              <option value="New Jersey">New Jersey</option>
+              <option value="Pennsylvania">Pennsylvania</option>
+              <option value="South Carolina">South Carolina</option>
+              <option value="Texas">Texas</option>
+            </select>
+          </label>
+          <label>
+            Zip Code:
+            <br>
+            <input type="text" class="form">
+          </label>
+        </div>
+  
+        <div>
+          <label>
+            Email Address:
+            <br>
+            <input type="email" class="form">
+          </label>
+        </div>
+  
+        <div>
+          <label>
+            Phone number:
+            <br>
+            <input type="tel" class="form">
+          </label>
+        </div>
+  
+      <h2>Shipping Method</h2>
+  
+      <div class="formRadio">
+        <label>
+          <input type="radio" name="answer" id="standart" value="standart">
+          Standart - 9,99$
+        </label>
+        <br>
+        <label>
+          <input type="radio" name="answer" id="second" value="second">
+          Second day - 19,99$
+        </label>
+        <br>
+        <label>
+          <input type="radio" name="answer" id="overnight" value="overnight">
+          Overnight - 29,99$
+        </label>
+      </div>
+  
+      <div  class="textarea">
+        <label>
+          Comment:
+        </label>
+        <br>
+        <textarea class="formText"></textarea>
+      </div>
+  
+      <div>
+        <label>
+          <input type="checkbox" class="check">
+          I would like to receive updates on the latest products and promotions via email or other channels.
+        </label>
+      </div>
+      <div>
+        <div>
+          <button class="sub">Submit</button>
+          <br>
+          <button type="reset" class="res">Reset</button>
+        </div>
+      </form>
+  
+    </div>
+
+  </div>
+
+</body>
+
+
+</html>
