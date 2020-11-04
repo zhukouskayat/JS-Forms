@@ -13,8 +13,8 @@ body {
     border-bottom-color: #41467a;
 }
 
-.sub,
-.res {
+#sub,
+#res {
     color: white;
     background-color: #b2acf3;
 }

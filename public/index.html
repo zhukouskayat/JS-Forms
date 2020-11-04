@@ -28,12 +28,12 @@
           <label>
             First name:
             <br>
-            <input type="text" class="form">
+            <input type="text" class="form" name="First name:">
           </label>
           <label>
             Last name:
             <br>
-            <input type="text" class="form">
+            <input type="text" class="form" name="Last name:">
           </label>
         </div>
   
@@ -41,7 +41,7 @@
           <label>
             City:
             <br>
-            <input type="text" class="form">
+            <input type="text" class="form" name="City:">
           </label>
         </div>
   
@@ -49,7 +49,7 @@
           <label>
             Address:
             <br>
-            <input type="text" class="form">
+            <input type="text" class="form" name="Address:">
           </label>
         </div>
   
@@ -57,7 +57,7 @@
           <label>
             State:
             <br>
-            <select class="formSel">
+            <select class="formSel" name="State:">
               <option selected value=""></option>
               <option value="Alabama">Alabama</option>
               <option value="Arizona">Arizona</option>
@@ -78,7 +78,7 @@
           <label>
             Zip Code:
             <br>
-            <input type="text" class="form">
+            <input type="text" class="form" name="Zip Code:">
           </label>
         </div>
   
@@ -86,7 +86,7 @@
           <label>
             Email Address:
             <br>
-            <input type="email" class="form">
+            <input type="email" class="form" name="Email:">
           </label>
         </div>
   
@@ -94,7 +94,7 @@
           <label>
             Phone number:
             <br>
-            <input type="tel" class="form">
+            <input type="text" class="form" name="Phone number:">
           </label>
         </div>
   
@@ -102,17 +102,17 @@
   
       <div class="formRadio">
         <label>
-          <input type="radio" name="answer" id="standart" value="standart">
+          <input type="radio" name="Shipping method" value="Standart">
           Standart - 9,99$
         </label>
         <br>
         <label>
-          <input type="radio" name="answer" id="second" value="second">
+          <input type="radio" name="Shipping method" value="Second day">
           Second day - 19,99$
         </label>
         <br>
         <label>
-          <input type="radio" name="answer" id="overnight" value="overnight">
+          <input type="radio" name="Shipping method" value="Overnight">
           Overnight - 29,99$
         </label>
       </div>
@@ -122,26 +122,31 @@
           Comment:
         </label>
         <br>
-        <textarea class="formText"></textarea>
+        <textarea class="formText" name="Comment:"></textarea>
       </div>
   
       <div>
         <label>
-          <input type="checkbox" class="check">
+          <input type="checkbox" class="check" name="Updates and promotions:">
           I would like to receive updates on the latest products and promotions via email or other channels.
         </label>
       </div>
       <div>
         <div>
-          <button class="sub">Submit</button>
+          <button type="button" id="sub">Submit</button>
           <br>
-          <button type="reset" class="res">Reset</button>
+          <button type="reset" id="res">Reset</button>
         </div>
       </form>
   
     </div>
 
   </div>
+
+  <script type="module">
+    import { button } from "../src/js/index.js";
+    button();
+  </script>
 
 </body>
 
